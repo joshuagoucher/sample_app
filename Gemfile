@@ -6,6 +6,10 @@ gem 'rails', '3.2.0'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
+  gem 'guard-rspec'
+  gem 'guard-spork', '1.2.0'
+  gem 'childprocess', '0.3.6'
+  gem 'spork', '0.9.2'
 end
 
 # Gems used only for assets and not required
@@ -20,6 +24,9 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'rb-fchange'
+  gem 'rb-notifu'
+  gem 'win32console'
 end
 
 group :production do
